@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Администратор\Desktop\JumperRepository-master\JumperApplication\JumperApplication\obj\Debug\
+C:\Users\witless\Desktop\Jumper\JumperApplication\JumperApplication\obj\Debug\
 JumperApplication
 none
 false
 DEBUG;TRACE
-C:\Users\Администратор\Desktop\JumperRepository-master\JumperApplication\JumperApplication\App.xaml
+C:\Users\witless\Desktop\Jumper\JumperApplication\JumperApplication\App.xaml
 7-1908220926
 2328934623
-31345123100
-22588209294
+28194241744
+221154700037
 AuthWindow.xaml;CaptchaWindow.xaml;JumperWindow.xaml;Pages\AgentCatalogPage.xaml;Pages\AgentHistoryPage.xaml;Pages\AgentInfoPage.xaml;Pages\AgentListPage.xaml;
 
-True
+False
 

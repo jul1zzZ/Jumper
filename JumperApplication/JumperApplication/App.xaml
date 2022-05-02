@@ -30,6 +30,10 @@
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
         </Style>
-        
+        <Style TargetType="ListBoxItem" x:Key="good_item">
+            <Setter Property="Background" Value="{Binding GetColor}" />
+            <Setter Property="BorderBrush" Value="{StaticResource akcent}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
     </Application.Resources>
 </Application>

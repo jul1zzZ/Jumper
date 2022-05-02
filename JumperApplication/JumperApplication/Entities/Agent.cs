@@ -72,6 +72,17 @@ namespace JumperApplication.Entities
             }
         }
 
+        public string GetColor
+        {
+            get
+            {
+                if (OrderSumm < 500000)
+                    return "##98FB98";
+                else
+                    return "#ffffff"; 
+            }
+        }
+
         public virtual AgentType AgentType { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Order> Orders { get; set; }

@@ -27,6 +27,7 @@ namespace JumperApplication.Pages
             InitializeComponent();
             Agents = JumperEntities.GetContext().Agents.ToList();
             DataContext = this;
+            
         }
 
         private void AddAgent_Click(object sender, RoutedEventArgs e)
@@ -41,7 +42,7 @@ namespace JumperApplication.Pages
 
         private void AgentHistoryBtn_Click(object sender, RoutedEventArgs e)
         {
-            
+
         }
     }
 }
