@@ -119,7 +119,6 @@ C:\Users\witless\Desktop\Jumper\JumperApplication\JumperApplication\bin\Debug\En
 C:\Users\witless\Desktop\Jumper\JumperApplication\JumperApplication\bin\Debug\System.Data.SQLite.xml
 C:\Users\witless\Desktop\Jumper\JumperApplication\JumperApplication\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\witless\Desktop\Jumper\JumperApplication\JumperApplication\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
-C:\Users\witless\Desktop\Jumper\JumperApplication\JumperApplication\obj\Debug\JumperApplication.csproj.AssemblyReference.cache
 C:\Users\witless\Desktop\Jumper\JumperApplication\JumperApplication\obj\Debug\AuthWindow.g.cs
 C:\Users\witless\Desktop\Jumper\JumperApplication\JumperApplication\obj\Debug\CaptchaWindow.g.cs
 C:\Users\witless\Desktop\Jumper\JumperApplication\JumperApplication\obj\Debug\JumperWindow.g.cs

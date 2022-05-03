@@ -77,9 +77,9 @@ namespace JumperApplication.Entities
             get
             {
                 if (OrderSumm < 500000)
-                    return "##98FB98";
+                    return "#ffffff";
                 else
-                    return "#ffffff"; 
+                    return "#98FB98"; 
             }
         }
 

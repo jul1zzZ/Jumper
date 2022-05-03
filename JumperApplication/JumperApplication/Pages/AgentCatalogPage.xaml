@@ -28,11 +28,11 @@
             <ComboBox x:Name="AgentFilterCb" SelectionChanged="AgentFilterCb_SelectionChanged" Margin="0 0 10 0" Width="150"/>
         </StackPanel>
 
-        <ListBox Grid.Row="1" x:Name="AgentLb" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Width="850" >
+        <ListBox Grid.Row="1" x:Name="AgentLb" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Width="850">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <Button Background="Transparent" Name="AgentOrdersBtn" Click="AgentOrdersBtn_Click" Width="800" Height="150" BorderThickness="1" BorderBrush="Black">
-                        <Grid Margin="10">
+                        <Grid Margin="10" Background="{Binding GetColor}">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="150"/>
                                 <ColumnDefinition Width="450"/>
@@ -41,7 +41,7 @@
                             <Image Grid.Column="0" Stretch="Uniform" Source="{Binding GetPhoto}"/>
 
                             <StackPanel Grid.Column="1" Margin="10 0 0 10">
-                                <TextBlock  FontSize="18" Margin="0 0 0 10">
+                                <TextBlock FontSize="18" Margin="0 0 0 10">
                                     <Run Text="{Binding AgentType.Name}"/>
                                     <Run Text=" | "/>
                                     <Run Text="{Binding Name}"/>
@@ -52,7 +52,7 @@
                                 <TextBlock Text="{Binding Priority,StringFormat='{}Приоритетность: {0}'}"  Margin="0 0 0 10" FontSize="18"/>
                             </StackPanel>
 
-                            <TextBlock Text="{Binding GetSale,StringFormat='{}{0}'}" FontSize="24" Grid.Column="2" Margin="20 0 0 20" TextWrapping="Wrap"/>
+                            <TextBlock Text="{Binding GetSale,StringFormat='{}{0}'}" FontSize="24" Grid.Column="2" Margin="20 0 0 20" TextWrapping="Wrap" />
                         </Grid>
                     </Button>
                 </DataTemplate>
